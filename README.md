@@ -1,4 +1,4 @@
-# Publish/Deploy Quarto as a Docker Container
+# Publish/Deploy Quarto Documents/Projects as a Docker Container
 
 This repository contains the source code for the Docker image that is used to deploy a Quarto website as a Docker container.
 
