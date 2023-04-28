@@ -11,7 +11,9 @@ This repository contains the source code for the Docker image that is used to de
    echo -e '\n```{r}\nlibrary(ggplot2)\nlibrary(palmerpenguins)\nggplot(penguins) +\n  aes(x = bill_length_mm, y = bill_depth_mm) +\n  geom_point(aes(colour = species)) +\n  geom_smooth(method = "lm", se = FALSE)\n```' >> about.qmd
    ```
 
-2. Setup `renv` and snapshot the dependencies:
+2. Setup `renv` and snapshot the dependencies in the `_dependencies.R` file (see [`renv` documentation](https://rstudio.github.io/renv/articles/renv.html#snapshotting-dependencies) for more information on snapshotting dependencies):
+
+   ```bash
 
    ```bash
    echo -e 'library(knitr)\nlibrary(rmarkdown)\nlibrary(ggplot2)\nlibrary(palmerpenguins)' >> _dependencies.R
