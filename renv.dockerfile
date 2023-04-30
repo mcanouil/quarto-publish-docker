@@ -8,7 +8,7 @@ COPY install-rig.sh /tmp/install-rig.sh
 RUN bash /tmp/install-rig.sh "${RIG_VERSION}"
 RUN rig add ${R_VERSION} && Rscript -e 'pak::pkg_install("renv")'
 
-COPY mywebsite /app
+COPY mywebsite-renv /app
 WORKDIR /app
 RUN Rscript -e 'renv::restore()' && quarto render .
 
