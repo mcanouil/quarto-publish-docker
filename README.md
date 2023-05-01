@@ -30,7 +30,7 @@ This repository contains the source code for the Docker image that is used to de
      --file renv.dockerfile .
    ```
 
-4. Deploy locally:
+4. Deploy locally, push to a Docker registry, or share the image (_i.e._, less than 60 Mb in this case) with others:
 
    ```bash
    docker container run \
@@ -70,7 +70,7 @@ This repository contains the source code for the Docker image that is used to de
      --file pak.dockerfile .
    ```
 
-4. Deploy locally:
+4. Deploy locally, push to a Docker registry, or share the image (_i.e._, less than 60 Mb in this case) with others:
 
    ```bash
    docker container run \
