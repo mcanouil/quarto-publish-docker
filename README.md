@@ -28,7 +28,7 @@ This repository contains the source code for the Docker image that is used to de
      --build-arg QUARTO_VERSION=1.4.13 \
      --tag "mywebsite-renv:1.0.0" \
      --file renv.dockerfile .
-   ````
+   ```
 
 4. Deploy locally:
 
@@ -68,7 +68,7 @@ This repository contains the source code for the Docker image that is used to de
      --build-arg QUARTO_VERSION=1.4.13 \
      --tag "mywebsite-pak:1.0.0" \
      --file pak.dockerfile .
-   ````
+   ```
 
 4. Deploy locally:
 
